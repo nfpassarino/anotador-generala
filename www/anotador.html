@@ -1,0 +1,57 @@
+<!-- We don't need a full layout in this file because this page will be parsed with Ajax.  -->
+<div class="page" data-name="anotador">
+    <div class="navbar">
+        <div class="navbar-inner sliding">
+            <div class="left">
+                <button class="button col" id="btnReiniciar">Reiniciar ptos</button>
+            </div>
+            <div class="right">
+                <button class="button col" id="btnVolver">
+                    <i class="icon icon-back"></i>
+                    <span class="ios-only">Back</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-content">
+        <div class="block">
+            <div class="row justify-content-center">
+                <div class="col-30 margin-right-half" id="jugadas"> <!--columna jugadas--> </div>
+                <div class="col-35 margin-right-half" id="j1p"> <!--columna jugador 1--> </div>
+                <div class="col-35" id="j2p"> <!--columna jugador 2--> </div>
+            </div>
+        </div>
+    </div>
+    <div class="popover popover-menor">
+        <div class="popover-inner">
+            <div class="block">
+                <p>Cantidad de dados:</p>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a class="list-button item-link popover-close menor" href="#">1 Dado</a></li>
+                    <li><a class="list-button item-link popover-close menor" href="#">2 Dados</a></li>
+                    <li><a class="list-button item-link popover-close menor" href="#">3 Dados</a></li>
+                    <li><a class="list-button item-link popover-close menor" href="#">4 Dados</a></li>
+                    <li><a class="list-button item-link popover-close menor" href="#">5 Dados</a></li>
+                    <li><a class="list-button item-link text-color-red popover-close tachar" href="#">Tachar</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="popover popover-mayor">
+        <div class="popover-inner">
+            <div class="block">
+                <p>Jugada:</p>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a class="list-button item-link popover-close mayor" href="#">Servida</a></li>
+                    <li><a class="list-button item-link popover-close mayor" href="#">Armada</a></li>
+                    <li><a class="list-button item-link text-color-red popover-close tachar" href="#">Tachar</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
